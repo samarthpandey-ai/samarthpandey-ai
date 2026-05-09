@@ -1,0 +1,53 @@
+name: Auto-Update Recent Projects
+
+on:
+  schedule:
+    # This runs the bot automatically once every day at midnight
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    # This allows you to run it manually by clicking a button
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Fetch Latest Repos and Update README
+        uses: actions/github-script@v6
+        with:
+          script: |
+            // Fetch your 3 most recently created public repositories
+            const { data: repos } = await github.rest.repos.listForUser({
+              username: 'samarthpandey-ai',
+              sort: 'created',
+              direction: 'desc',
+              per_page: 3
+            });
+            
+            // Format them into a neat Markdown table
+            let repoList = '| Repository | Description |\n|---|---|\n';
+            repos.forEach(repo => {
+              const desc = repo.description || 'No description provided.';
+              repoList += `| [**${repo.name}**](${repo.html_url}) | ${desc} |\n`;
+            });
+            
+            // Read your current README, find the tags, and replace the content
+            const fs = require('fs');
+            let readme = fs.readFileSync('README.md', 'utf8');
+            readme = readme.replace(
+              /<!-- START_RECENT_REPOS -->[\s\S]*<!-- END_RECENT_REPOS -->/,
+              `<!-- START_RECENT_REPOS -->\n${repoList}\n<!-- END_RECENT_REPOS -->`
+            );
+            fs.writeFileSync('README.md', readme);
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add README.md
+          git commit -m "docs: auto-update recent projects" || echo "No changes to commit"
+          git push
