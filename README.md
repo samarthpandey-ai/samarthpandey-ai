@@ -31,11 +31,14 @@
 ### 🚀 Recent Projects
 
 <!-- START_RECENT_REPOS -->
-| Repository | Description |
-|---|---|
-| [**samarthpandey-ai**](https://github.com/samarthpandey-ai/samarthpandey-ai) | Profile |
-| [**Personal_portfolio**](https://github.com/samarthpandey-ai/Personal_portfolio) | No description provided. |
-| [**v0-ml-portfolio**](https://github.com/samarthpandey-ai/v0-ml-portfolio) | No description provided. |
+🔹 **[Personal_portfolio](https://github.com/samarthpandey-ai/Personal_portfolio)**
+> Currently working on this project! 🚀
+
+🔹 **[v0-ml-portfolio](https://github.com/samarthpandey-ai/v0-ml-portfolio)**
+> Currently working on this project! 🚀
+
+🔹 **[Intelligent-Autonomous-Research-System](https://github.com/samarthpandey-ai/Intelligent-Autonomous-Research-System)**
+> Currently working on this project! 🚀
 
 <!-- END_RECENT_REPOS -->
 
