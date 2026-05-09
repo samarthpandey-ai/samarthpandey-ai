@@ -2,8 +2,10 @@ name: Auto-Update Recent Projects
 
 on:
   schedule:
+    # Runs the bot automatically once every day at midnight
     - cron: '0 0 * * *'
   workflow_dispatch:
+    # Allows you to run it manually
 
 jobs:
   update-readme:
@@ -18,25 +20,26 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            // Fetch the 10 newest repos so we have enough to filter through
+            // Fetch the 10 most recently PUSHED repositories
             const { data: repos } = await github.rest.repos.listForUser({
               username: 'samarthpandey-ai',
-              sort: 'created',
+              sort: 'pushed', 
               direction: 'desc',
               per_page: 10
             });
             
-            // Filter out the profile repo itself AND any repositories you just forked from others
+            // Filter out the profile repo and forks, then keep the top 3
+            // (Change the "3" below to "5" if you want to show more projects!)
             const filteredRepos = repos.filter(repo => repo.name !== 'samarthpandey-ai' && !repo.fork).slice(0, 3);
             
-            // Format into a clean, modern list instead of a clunky table
+            // Format into a clean, modern list
             let repoList = '';
             filteredRepos.forEach(repo => {
-              // If you haven't written a description yet, use a friendly default message
               const desc = repo.description || 'Currently working on this project! 🚀';
               repoList += `🔹 **[${repo.name}](${repo.html_url})**\n> ${desc}\n\n`;
             });
             
+            // Update the README
             const fs = require('fs');
             let readme = fs.readFileSync('README.md', 'utf8');
             readme = readme.replace(
@@ -50,5 +53,5 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           git add README.md
-          git commit -m "docs: improve layout and filter profile repo" || echo "No changes to commit"
+          git commit -m "docs: sort recent projects by last pushed date" || echo "No changes to commit"
           git push
