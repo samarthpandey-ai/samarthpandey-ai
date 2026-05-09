@@ -1,102 +1,63 @@
-<!-- Banner -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:7c3aed&height=240&section=header&text=Samarth%20Pandey&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Machine%20Learning%20%2B%20Flask%20%2B%20Healthcare%20AI&descAlignY=55&descSize=18" />
-</p>
-
-<!-- Typing effect -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1200&color=7C3AED&center=true&vCenter=true&width=700&lines=Building+real+projects;Machine+Learning+Developer;Flask+Web+Developer;Healthcare+AI+Explorer" />
-</p>
+<h1 align="center">Hi there, I'm Samarth Pandey! 👋</h1>
+<h3 align="center">Machine Learning | NLP | Healthcare AI</h3>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=samarthpandey-ai&style=for-the-badge&color=0f172a&label=PROFILE+VIEWS" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&lines=Software+Engineering+Student+@+TIET;Building+Healthcare+AI+Solutions;Passionate+about+NLP+%26+Transformers;Aiming+for+a+Master's+at+TUM,+Germany!" alt="Typing SVG" />
+  </a>
 </p>
 
 ---
 
-## Hi, I am Samarth Pandey
+### 👨‍💻 About Me
 
-I build practical projects in Machine Learning, Flask, and Healthcare AI.  
-I care about clean code, strong fundamentals, and useful products.
+- 🎓 B.Tech **Software Engineering** student at Thapar Institute of Engineering and Technology.
+- 🧠 Deeply engaged in **Machine Learning** and **Natural Language Processing**, with a special focus on the **Transformer architecture** and speech processing (Wav2Vec, HMM).
 
----
-
-## About Me
-
-- Computer Science student
-- Focused on Machine Learning and Web Development
-- Building a personalized medical recommendation system
-- Working on Flask based healthcare applications
-- Learning Deep Learning and model improvement
+- 🌐 Check out my live projects and portfolio [hosted on Vercel](#). *(Add your Vercel link here)*
 
 ---
 
-## Tech Stack
+### 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,flask,html,css,javascript,mysql,git,github,vscode,linux&perline=5" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,cpp,matlab,html,css,js,flask,git,github,vscode,linux&perline=11" alt="Tech Stack" />
+  </a>
 </p>
 
 ---
 
-## Featured Projects
+### 🚀 Recent Projects
 
-### Personalized Medical Recommendation System
-Machine learning based disease prediction and recommendation system.
-
-### Healthcare Web App
-Flask based healthcare app with:
-- Symptom input
-- Speech recognition
-- Prediction interface
-
-### Portfolio Website
-Personal branding and project showcase site.
+<!-- START_RECENT_REPOS -->
+*The GitHub Action will automatically generate your recent repositories here.*
+<!-- END_RECENT_REPOS -->
 
 ---
 
-## GitHub Stats
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=samarthpandey-ai&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samarthpandey-ai&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-## Streak
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=samarthpandey-ai&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-## Connect With Me
+### 📊 GitHub Stats
 
 <p align="center">
   <a href="https://github.com/samarthpandey-ai">
-    <img src="https://img.shields.io/badge/GitHub-0f172a?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://github-readme-stats.vercel.app/api?username=samarthpandey-ai&show_icons=true&theme=tokyonight&hide_border=true&title_color=8A2BE2&count_private=true" alt="Samarth's GitHub Stats" />
   </a>
-  <a href="YOUR_LINKEDIN_URL">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <a href="https://github.com/samarthpandey-ai">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=samarthpandey-ai&theme=tokyonight&hide_border=true&ring=8A2BE2&fire=8A2BE2&currStreakLabel=8A2BE2" alt="Samarth's GitHub Streak" />
   </a>
-  <a href="mailto:YOUR_EMAIL">
-    <img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=white" />
+</p>
+<p align="center">
+  <a href="https://github.com/samarthpandey-ai">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=samarthpandey-ai&layout=compact&theme=tokyonight&hide_border=true&title_color=8A2BE2" alt="Top Languages" />
   </a>
 </p>
 
 ---
 
-## Current Focus
-
-- Improve ML accuracy
-- Build better Flask apps
-- Add real deployments
-- Make projects recruiter friendly
-
----
+### 📫 Connect With Me
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,100:0f172a&height=140&section=footer" />
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME_HERE"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:YOUR_EMAIL_HERE@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/samarthpandey-ai"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
