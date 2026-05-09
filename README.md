@@ -31,7 +31,12 @@
 ### 🚀 Recent Projects
 
 <!-- START_RECENT_REPOS -->
-*The GitHub Action will automatically generate your recent repositories here.*
+| Repository | Description |
+|---|---|
+| [**samarthpandey-ai**](https://github.com/samarthpandey-ai/samarthpandey-ai) | Profile |
+| [**Personal_portfolio**](https://github.com/samarthpandey-ai/Personal_portfolio) | No description provided. |
+| [**v0-ml-portfolio**](https://github.com/samarthpandey-ai/v0-ml-portfolio) | No description provided. |
+
 <!-- END_RECENT_REPOS -->
 
 ---
