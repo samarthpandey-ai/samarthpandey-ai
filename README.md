@@ -31,13 +31,13 @@
 ### 🚀 Recent Projects
 
 <!-- START_RECENT_REPOS -->
-🔹 **[Personal_portfolio](https://github.com/samarthpandey-ai/Personal_portfolio)**
-> Currently working on this project! 🚀
-
 🔹 **[v0-ml-portfolio](https://github.com/samarthpandey-ai/v0-ml-portfolio)**
 > Currently working on this project! 🚀
 
 🔹 **[Intelligent-Autonomous-Research-System](https://github.com/samarthpandey-ai/Intelligent-Autonomous-Research-System)**
+> Currently working on this project! 🚀
+
+🔹 **[Medical_System](https://github.com/samarthpandey-ai/Medical_System)**
 > Currently working on this project! 🚀
 
 <!-- END_RECENT_REPOS -->
